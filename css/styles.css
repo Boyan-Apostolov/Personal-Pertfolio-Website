@@ -10132,3 +10132,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.icon-img{
+  height: 80;
+   width: 80px;
+}
