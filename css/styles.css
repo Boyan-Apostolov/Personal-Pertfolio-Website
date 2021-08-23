@@ -574,6 +574,9 @@ pre code {
     max-width: 1140px;
   }
 }
+.project-holder{
+  margin-bottom: 100px;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
