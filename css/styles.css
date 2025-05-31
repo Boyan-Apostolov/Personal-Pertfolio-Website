@@ -77,7 +77,57 @@ h2 {
   box-shadow: 0 0 20px #4cc10e55;
 }
 
+.work-card {
+  background-color: #0d4445;
+  border-left: 5px solid #0e91c1;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px #0ea0c155;
+}
+
 .edu-date {
   color: #b1d79c;
   font-weight: bold;
+}
+
+/* Skill card styling with green accent */
+.skill-card {
+  background-color: #18450d;
+  border-left: 6px solid #4cc10e;
+  color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 25px #4cc10e55;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Slight hover scale for interactivity */
+.skill-card:hover {
+  transform: scale(1.02);
+}
+
+/* Section title */
+.skill-card .card-title {
+  font-size: 1.5rem; /* Larger titles */
+  font-weight: 700;
+}
+
+/* Badges styled with your accent green */
+.skill-badge {
+  background-color: #4cc10e;
+  color: #18450d;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+/* Overall heading for the section */
+.skills-heading {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2rem;
 }
