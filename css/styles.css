@@ -11,7 +11,7 @@ body {
 }
 
 .nav-link {
-  color: #aaa !important;
+  color: #4cc10e !important;
 }
 
 .nav-link:hover {
@@ -91,17 +91,6 @@ h2 {
   font-weight: bold;
 }
 
-/* Skill card styling with green accent */
-.skill-card {
-  background-color: #18450d;
-  border-left: 6px solid #4cc10e;
-  color: white;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 0 25px #4cc10e55;
-  transition: transform 0.2s ease-in-out;
-}
-
 /* Slight hover scale for interactivity */
 .skill-card:hover {
   transform: scale(1.02);
@@ -127,7 +116,81 @@ h2 {
 .skills-heading {
   font-size: 2.1rem;
   font-weight: 800;
-  color: #ffffff;
+  color: white;
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.skill-card {
+  background-color: #45310d;
+  border-left: 5px solid #c1af0e;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px #c1970e55;
+}
+a {
+  text-decoration: none !important;
+}
+
+.project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.project-subtitle {
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.project-image {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.project-badge {
+  background-color: #4cc10e;
+  color: #101010;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.95rem;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.icon-badge {
+  font-size: 1.4rem;
+}
+
+.contact-header {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #4cc10e;
+  font-style: italic;
+}
+
+.email-link {
+  color: #a96cfd;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-header {
+    font-size: 2.2rem;
+  }
+}
+
+.fb-50 {
+  flex-basis: 50% !important;
 }

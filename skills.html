@@ -23,7 +23,8 @@
     <meta name="robots" content="index, follow" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Bootstrap CSS -->
@@ -72,9 +73,6 @@
               <a class="nav-link" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="certificates.html">Certifications</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="contact.html">Get in Touch</a>
             </li>
           </ul>
@@ -83,130 +81,109 @@
     </nav>
 
     <!-- Skills Section -->
-    <h2 class="skills-heading">My Skills</h2>
+    <h2 class="skills-heading mb-5">My Skills</h2>
 
     <div class="container text-white">
-      <div class="row g-4 d-flex justify-content-center">
+      <div class="row g-4 d-flex justify-content-center gap-25">
         <!-- Programming Languages -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card skill-card h-100">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-code me-2"></i>Programming Languages
-              </h5>
-              <div class="d-flex flex-wrap gap-3 mt-4">
-                <span class="skill-badge">C#</span>
-                <span class="skill-badge">Python</span>
-                <span class="skill-badge">Java</span>
-                <span class="skill-badge">JavaScript</span>
-                <span class="skill-badge">SQL</span>
-                <span class="skill-badge">Haskell</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-5 skill-card m-0">
+          <div class="d-flex align-items-center gap-25">
+            <i class="fa-solid display-6 fa-code"></i>
+            <h4 class="fw-bold mb-0">Programming Languages</h4>
+          </div>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <span class="skill-badge">C#</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Haskell</span>
           </div>
         </div>
 
         <!-- Frameworks & Libraries -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card skill-card h-100">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-cubes me-2"></i>Frameworks & Libraries
-              </h5>
-              <div class="d-flex flex-wrap gap-3 mt-4">
-                <span class="skill-badge">ASP.NET Core</span>
-                <span class="skill-badge">Angular</span>
-                <span class="skill-badge">React</span>
-                <span class="skill-badge">jQuery</span>
-                <span class="skill-badge">EF-Core</span>
-                <span class="skill-badge">Firebase</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-5 skill-card m-0">
+          <div class="d-flex align-items-center gap-25">
+            <i class="fa-solid display-6 fa-cubes"></i>
+            <h4 class="fw-bold mb-0">Frameworks & Libraries</h4>
+          </div>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <span class="skill-badge">ASP.NET Core</span>
+            <span class="skill-badge">Angular</span>
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">jQuery</span>
+            <span class="skill-badge">EF-Core</span>
+            <span class="skill-badge">Firebase</span>
           </div>
         </div>
 
         <!-- Web Development -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card skill-card h-100">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-globe me-2"></i>Web Development
-              </h5>
-              <div class="d-flex flex-wrap gap-3 mt-4">
-                <span class="skill-badge">HTML & CSS</span>
-                <span class="skill-badge">APIs (RESTful)</span>
-                <span class="skill-badge">Servers</span>
-                <span class="skill-badge">Networking</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-5 skill-card m-0">
+          <div class="d-flex align-items-center gap-25">
+            <i class="fa-solid display-6 fa-globe"></i>
+            <h4 class="fw-bold mb-0">Web Development</h4>
+          </div>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <span class="skill-badge">HTML & CSS</span>
+            <span class="skill-badge">APIs (RESTful)</span>
+            <span class="skill-badge">Servers</span>
+            <span class="skill-badge">Networking</span>
           </div>
         </div>
 
         <!-- Machine Learning -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card skill-card h-100">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-robot me-2"></i>Machine Learning
-              </h5>
-              <div class="d-flex flex-wrap gap-3 mt-4">
-                <span class="skill-badge">KNN</span>
-                <span class="skill-badge">Random Forest Regression</span>
-                <span class="skill-badge">Linear Regression</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-5 skill-card m-0">
+          <div class="d-flex align-items-center gap-25">
+            <i class="fa-solid display-6 fa-robot"></i>
+            <h4 class="fw-bold mb-0">Machine Learning</h4>
+          </div>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <span class="skill-badge">KNN</span>
+            <span class="skill-badge">Random Forest Regression</span>
+            <span class="skill-badge">Linear Regression</span>
           </div>
         </div>
 
         <!-- Tools & Platforms -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card skill-card h-100">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-toolbox me-2"></i>Tools & Platforms
-              </h5>
-              <div class="d-flex flex-wrap gap-3 mt-4">
-                <span class="skill-badge">GitHub</span>
-                <span class="skill-badge">Docker</span>
-                <span class="skill-badge">PostMan</span>
-                <span class="skill-badge">Swagger</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-5 skill-card m-0">
+          <div class="d-flex align-items-center mb-3 gap-25">
+            <i class="fa-solid display-6 fa-toolbox"></i>
+            <h4 class="fw-bold mb-0">Tools & Platforms</h4>
+          </div>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <span class="skill-badge">GitHub</span>
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">PostMan</span>
+            <span class="skill-badge">Swagger</span>
           </div>
         </div>
 
         <!-- Soft Skills -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card skill-card h-100">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-users me-2"></i>Soft Skills
-              </h5>
-              <div class="d-flex flex-wrap gap-3 mt-4">
-                <span class="skill-badge">Communication</span>
-                <span class="skill-badge">Problem-solving</span>
-                <span class="skill-badge">Teamwork</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-5 skill-card m-0">
+          <div class="d-flex align-items-center mb-3 gap-25">
+            <i class="fa-solid display-6 fa-users"></i>
+            <h4 class="fw-bold mb-0">Soft Skills</h4>
+          </div>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <span class="skill-badge">Communication</span>
+            <span class="skill-badge">Problem-solving</span>
+            <span class="skill-badge">Teamwork</span>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4">
-          <div class="card skill-card h-100">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-robot me-2"></i>Quality Assurance
-              </h5>
-              <div class="d-flex flex-wrap gap-3 mt-4">
-                <span class="skill-badge">Cypress</span>
-                <span class="skill-badge">Puppeteer</span>
-              </div>
-            </div>
+        <!-- Quality Assurance -->
+        <div class="col-md-6 col-lg-5 skill-card m-0">
+          <div class="d-flex align-items-center mb-3 gap-25">
+            <i class="fa-solid display-6 fa-check"></i>
+            <h4 class="fw-bold mb-0">Quality Assurance</h4>
+          </div>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <span class="skill-badge">Cypress</span>
+            <span class="skill-badge">Puppeteer</span>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>

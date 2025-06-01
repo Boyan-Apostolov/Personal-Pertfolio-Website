@@ -8,22 +8,15 @@
       src="https://umami.boyan-apostolov.live/script.js"
       data-website-id="b1f40113-005a-4fbf-a8fe-4f3effd81989"
     ></script>
-    <!-- Primary Meta Tags -->
+
     <title>Boyan Apostolov | Projects</title>
-    <meta name="title" content="Boyan Apostolov | Projects" />
-    <meta
-      name="description"
-      content="I'm Boyan Apostolov, a Software Engineering student with full-stack experience in ASP.NET, Angular, and React. Explore my projects, skills, and contact me!"
-    />
-    <meta
-      name="keywords"
-      content="Boyan Apostolov, software engineer, full-stack developer, portfolio, ASP.NET, React, Angular, Fontys, Eindhoven, web developer"
-    />
+
     <meta name="author" content="Boyan Apostolov" />
     <meta name="robots" content="index, follow" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Bootstrap CSS -->
@@ -37,6 +30,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
     />
+    <style>
+      body {
+        background-color: #101010;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar -->
@@ -71,9 +70,6 @@
               <a class="nav-link" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="certificates.html">Certifications</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="contact.html">Get in Touch</a>
             </li>
           </ul>
@@ -81,7 +77,511 @@
       </div>
     </nav>
 
-    <h2 class="text-white">TODO:...</h2>
+    <!-- Projects Header -->
+    <div class="container">
+      <h2 class="section-heading">Projects</h2>
+
+      <div>
+        <div class="project row g-4 mb-5">
+          <!-- Left Column -->
+          <div class="col-md-7">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="fas fa-plane fa-2x"></i>
+              <div>
+                <h3 class="project-title mb-0">Flight Price Predictor</h3>
+                <p class="project-subtitle mb-0">
+                  <strong>Related to:</strong> Fontys UAS ICT
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              Flight Price Predictor is a machine learning project that predicts
+              the cheapest day to buy a flight ticket using historical flight
+              price data. Built with Python, it analyzes trends based on
+              departure dates, holidays, and routes to help travelers save
+              money.
+            </p>
+
+            <div class="row justify-content-center">
+              <div class="">
+                <div class="project-image">
+                  <img
+                    style="width: 100%; object-fit: contain"
+                    src="./assets/img/flight-1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-start gap-3">
+            <img
+              style="width: 50%; object-fit: cover"
+              src="./assets/img/plane.jpg"
+              alt=""
+            />
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a
+                href="https://flight-predictor.boyan-apostolov.live"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe icon-badge me-1"></i> Live
+              </a>
+              <a
+                href="https://github.com/Boyan-Apostolov/Personal-Pertfolio-Website"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code icon-badge me-1"></i> Git Repo
+              </a>
+            </div>
+
+            <h5 class="mt-4"><i class="fas fa-wrench me-2"></i>Built with</h5>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <span class="project-badge">Python</span>
+              <span class="project-badge">ML</span>
+              <span class="project-badge">Regression</span>
+              <span class="project-badge">Jypyter</span>
+              <span class="project-badge">Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <hr class="w-90 text-center text-white" />
+
+        <div class="project row g-4 mb-5">
+          <!-- Left Column -->
+          <div class="col-md-7">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="fas fa-car fa-2x"></i>
+              <div>
+                <h3 class="project-title mb-0">Rent Ride</h3>
+                <p class="project-subtitle mb-0">
+                  <strong>Related to:</strong> Fontys UAS ICT
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              React and Spring Boot application for creating and managing car
+              rentals
+            </p>
+
+            <div class="row mt-4 justify-content-center">
+              <div class="">
+                <div class="project-image">
+                  <img
+                    style="width: 100%; height: 100%; object-fit: contain"
+                    src="./assets/img/rentride2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-start gap-3">
+            <img
+              style="width: 50%; object-fit: cover"
+              src="./assets/img/rentride1.png"
+              alt=""
+            />
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a
+                href="https://rentride.boyan-apostolov.live"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe icon-badge me-1"></i> Live
+              </a>
+              <a
+                href="https://github.com/Boyan-Apostolov/RentRide"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code icon-badge me-1"></i> Git Repo
+              </a>
+            </div>
+
+            <h5 class="mt-4"><i class="fas fa-wrench me-2"></i>Built with</h5>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <span class="project-badge">React</span>
+              <span class="project-badge">Java Spring Boot</span>
+              <span class="project-badge">Cypress</span>
+              <span class="project-badge">Stripe</span>
+              <span class="project-badge">Sonar Qube</span>
+            </div>
+          </div>
+        </div>
+
+        <hr class="w-90 text-center text-white" />
+
+        <div class="project row g-4 mb-5">
+          <!-- Left Column -->
+          <div class="col-md-7">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="fas fa-shop fa-2x"></i>
+              <div>
+                <h3 class="project-title mb-0">China Express</h3>
+                <p class="project-subtitle mb-0">
+                  <strong>Related to:</strong> Fontys UAS ICT
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              China Express is an ASP.NET Razor Pages project developed for
+              Semester 2 at Fontys ICT. It is a web shop application offering
+              users affordable products with features such as personalized
+              recommendations, product reviews, discount codes, referral
+              systems, and periodic statistics.
+            </p>
+
+            <div class="row justify-content-center">
+              <div class="">
+                <div class="project-image">
+                  <img
+                    style="width: 100%; object-fit: contain"
+                    src="./assets/img/china-1.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-start gap-3">
+            <img
+              style="width: 50%; object-fit: cover"
+              src="./assets/img/china-2.png"
+              alt=""
+            />
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a
+                href="https://i522311.luna.fhict.nl/"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe icon-badge me-1"></i> Live
+              </a>
+              <a
+                href="https://github.com/Boyan-Apostolov/ChinaExpress"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code icon-badge me-1"></i> Git Repo
+              </a>
+            </div>
+
+            <h5 class="mt-4"><i class="fas fa-wrench me-2"></i>Built with</h5>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <span class="project-badge">ASP.NET Core</span>
+              <span class="project-badge">MSSQL</span>
+              <span class="project-badge">Chart.JS</span>
+              <span class="project-badge">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <hr class="w-90 text-center text-white" />
+
+        <div class="project row g-4 mb-5">
+          <!-- Left Column -->
+          <div class="col-md-7">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="fas fa-shop fa-2x"></i>
+              <div>
+                <h3 class="project-title mb-0">Easy Blog</h3>
+                <p class="project-subtitle mb-0">
+                  <strong>Related to:</strong> SoftUni
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              Angular web application for reading and creating blogs, liking and
+              commentting on blogs and earning achievements
+            </p>
+
+            <div class="row justify-content-center">
+              <div class="">
+                <div class="project-image">
+                  <img
+                    style="width: 100%; object-fit: contain"
+                    src="./assets/img/easyblog2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-start gap-3">
+            <img
+              style="width: 50%; object-fit: cover"
+              src="./assets/img/easyblog1.png"
+              alt=""
+            />
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a
+                href="http://easy-blog-angular.github.io/"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe icon-badge me-1"></i> Live
+              </a>
+              <a
+                href="https://github.com/Boyan-Apostolov/Easy-Blog-Angular-project"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code icon-badge me-1"></i> Git Repo
+              </a>
+            </div>
+
+            <h5 class="mt-4"><i class="fas fa-wrench me-2"></i>Built with</h5>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <span class="project-badge">Angular</span>
+              <span class="project-badge">FireBase</span>
+              <span class="project-badge">Cypress</span>
+              <span class="project-badge">IPData</span>
+            </div>
+          </div>
+        </div>
+
+        <hr class="w-90 text-center text-white" />
+
+        <div class="project row g-4 mb-5">
+          <!-- Left Column -->
+          <div class="col-md-7">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="fas fa-shop fa-2x"></i>
+              <div>
+                <h3 class="project-title mb-0">Business Manager</h3>
+                <p class="project-subtitle mb-0">
+                  <strong>Related to:</strong> IT-Career Programme
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              BusinessManager-ITKariera is a group ASP.NET Core web application
+              developed as a final course project at ITKariera, designed to
+              manage users, roles, teams, projects, and time-off requests within
+              a business. It features dynamic role-based permissions and an
+              interactive UI using jQuery and SweetAlert2, with seeded roles
+              such as CEO, Team Lead, and Developer. The project was built by
+              Boyan Apostolov and Teodor Ivanov
+            </p>
+
+            <div class="row justify-content-center">
+              <div class="">
+                <div class="project-image">
+                  <img
+                    style="width: 100%; object-fit: contain"
+                    src="./assets/img/business2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-start gap-3">
+            <!-- <img
+            style="width: 50%; object-fit: cover"
+            src="./assets/img/easyblog1.png"
+            alt=""
+          /> -->
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <!-- <a
+              href="http://easy-blog-angular.github.io/"
+              class="project-badge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-globe icon-badge me-1"></i> Live
+            </a> -->
+              <a
+                href="https://github.com/Boyan-Apostolov/BusinessManager-ITKariera"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code icon-badge me-1"></i> Git Repo
+              </a>
+            </div>
+
+            <h5 class="mt-4"><i class="fas fa-wrench me-2"></i>Built with</h5>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <span class="project-badge">C#</span>
+              <span class="project-badge">ASP.NET</span>
+              <span class="project-badge">EF-Core</span>
+              <span class="project-badge">MsSQL</span>
+              <span class="project-badge">AutoMapper</span>
+              <span class="project-badge">APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <hr class="w-90 text-center text-white" />
+
+        <div class="project row g-4 mb-5">
+          <!-- Left Column -->
+          <div class="col-md-7">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="fas fa-shop fa-2x"></i>
+              <div>
+                <h3 class="project-title mb-0">DeemZ-Platform</h3>
+                <p class="project-subtitle mb-0">
+                  <strong>Related to:</strong> Perosnal Project
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              DeemZ-Platform is an open-source platform for teaching students in
+              the world of programming. It includes both a registration site for
+              courses with different technologies, but also real-time
+              communication in order to ask questions that have arisen during
+              the lecture and are not clear. The project was mainly built by
+              Berat Dzhevdetov with contribution by Boyan Apostolov
+            </p>
+
+            <div class="row justify-content-center">
+              <div class="">
+                <div class="project-image">
+                  <img
+                    style="width: 100%; object-fit: contain"
+                    src="./assets/img/deemz.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-start gap-3">
+            <!-- <img
+            style="width: 50%; object-fit: cover"
+            src="./assets/img/easyblog1.png"
+            alt=""
+          /> -->
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <!-- <a
+              href="http://easy-blog-angular.github.io/"
+              class="project-badge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-globe icon-badge me-1"></i> Live
+            </a> -->
+              <a
+                href="https://github.com/Berat-Dzhevdetov/DeemZ-Platform"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code icon-badge me-1"></i> Git Repo
+              </a>
+            </div>
+
+            <h5 class="mt-4"><i class="fas fa-wrench me-2"></i>Built with</h5>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <span class="project-badge">C#</span>
+              <span class="project-badge">ASP.NET</span>
+              <span class="project-badge">EF-Core</span>
+              <span class="project-badge">MsSQL</span>
+              <span class="project-badge">AutoMapper</span>
+              <span class="project-badge">APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <hr class="w-90 text-center text-white" />
+
+        <div class="project row g-4 mb-5">
+          <!-- Left Column -->
+          <div class="col-md-7">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="fas fa-shop fa-2x"></i>
+              <div>
+                <h3 class="project-title mb-0">Online Doctor</h3>
+                <p class="project-subtitle mb-0">
+                  <strong>Related to:</strong> SoftUni
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              OnlineDoctorSystem is a full-stack ASP.NET Core web application
+              developed as a final project at SoftUni. It allows users to find
+              doctors, book and manage consultations, write reviews, and
+              communicate via a real-time chat. The app supports both doctor and
+              patient roles, and uses modern technologies.
+            </p>
+
+            <div class="row justify-content-center">
+              <div class="">
+                <div class="project-image">
+                  <img
+                    style="width: 100%; object-fit: contain"
+                    src="./assets/img/onlinedoc.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-start gap-3">
+            <img
+              style="width: 50%; object-fit: cover"
+              src="./assets/img/onlinedoc2.png"
+              alt=""
+            />
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a
+                href="https://github.com/Boyan-Apostolov/OnlineDoctorSystem"
+                class="project-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code icon-badge me-1"></i> Git Repo
+              </a>
+            </div>
+
+            <h5 class="mt-4"><i class="fas fa-wrench me-2"></i>Built with</h5>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <span class="project-badge">C#</span>
+              <span class="project-badge">ASP.NET</span>
+              <span class="project-badge">EF-Core</span>
+              <span class="project-badge">MsSQL</span>
+              <span class="project-badge">AutoMapper</span>
+              <span class="project-badge">APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
